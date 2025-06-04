@@ -10,6 +10,7 @@ def generar_contraseña(longitud=8, incluir_simbolos=False):
     return contraseña
 
 if __name__ == '__main__':
+    print("== Generador de Contraseñas Básico ==")
     while True:
         entrada = input('Longitud de la contraseña (mínimo 4, por defecto 8): ')
         if entrada == '':
